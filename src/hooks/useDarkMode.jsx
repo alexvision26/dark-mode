@@ -14,4 +14,6 @@ export const useDarkMode = (key, initialValue) => {
         }
 
     }, [darkMode])
+
+    return [darkMode, setDarkMode]
 }
