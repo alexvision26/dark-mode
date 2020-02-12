@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-export const useLocalStorage = () => {
+export const useLocalStorage = (key, initialState) => {
 
+    const [storedValue, setStoredValue] = useState(() => {
 
-    return (
-        <>
-        </>
-    )
+    })
+
+    return [storedValue];
 }
